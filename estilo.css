@@ -1,0 +1,301 @@
+*{
+   margin: 0px;
+}
+
+.body{
+    /*background: rgb(0, 0, 0);*/
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans Condensed', sans-serif;
+ }
+
+ .Principal {
+    background: rgb(89, 90, 102);
+    background-image: url("Página/Imágenes/Fondo\ de\ huellas.jpg");
+    text-align: center;
+ }
+
+ .Principal-ul{
+   align-items: center;
+ }
+ 
+
+ .Principal h1{
+   color: rgb(0, 0, 0);
+   font-family: 'Open Sans Condensed', sans-serif;
+   padding-bottom: 75px;
+   background-color: rgb(253, 253, 253, .5);
+
+ }
+ .Somos{
+    background-image: url("Página/Imágenes/Fondo\ de\ huellas.jpg");
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+ }
+
+ .Third{
+    background: rgb(89, 90, 102);
+    text-align: center;
+ }
+
+ .header{
+    background-color: white;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+ }
+
+ .logo img{
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+ul{
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   height: inherit;
+   align-items: center;
+}
+
+.header a{
+   color: black;
+   text-decoration: none;
+   height: 100px;
+   display: flex;
+   align-items: center;
+   padding: 0px 10px;
+}
+
+.menu{
+   height: inherit;
+   color: red;
+   height: 100px;
+   font-size: 20px;
+   font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.header li{
+   height: inherit;
+}
+
+.Principal img{
+   width: 300px;
+   padding-top: 75px;
+}
+
+h1{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 40px;
+}
+
+h1 strong{
+   color: #99cc00;
+}
+
+.Somos h2{
+   color:  #cf6565;
+   font-size: 40px;
+   margin-bottom: 10px;
+   background-color: rgb(253, 253, 253, .5);
+   text-align: center;
+   font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+.Somos p{
+   margin-bottom: 20px;
+   font-size: 30px;
+   background-color: rgb(253, 253, 253, .5);
+   font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+/*
+.Padre{
+   background: white;
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: row;
+   justify-content: center;
+   height: 500px;
+   align-items: center;
+}
+
+.Hijo{
+   background: grey;
+   width: 200px;
+   height: 200px;
+   border: 2px solid white;
+   font-size: 30px;
+   margin: 10px;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+*/
+
+.aplicar{
+  height: 500px; 
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+  text-align: center;
+  color: black;
+}
+
+.aplicar-detalles{
+   width: 50%;
+   height: inherit;
+   display: flex;
+}
+
+.Aplicar-detalles img{
+   height: 90%;
+}
+
+.Formulario{
+   background-image: url("Página/Imágenes/Fondo\ de\ huellas.jpg");
+   object-fit: cover;
+   margin: auto;
+   padding: auto;
+}
+.Nuestros{
+   text-align: center;
+   font-size: 40px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   padding-top: 20px;
+
+}
+.Servicios{
+   display: flex;
+   justify-content: space-between;
+   margin: 20px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   /*background-image: url("Página/Imágenes/Fondo\ de\ huellas.jpg");*/
+}
+
+.Servicios h3{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 40px;
+   color: #cf6565;
+   text-align: center;
+   padding-top: 5px;
+}
+
+.Servicios h1{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 35px;
+   color: black;
+   text-align: center;
+}
+
+.Servicios p{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 30px;
+   color: black;
+
+}
+
+.Contacto h2{
+   font-family: 'Open Sans Condensed', sans-serif;
+   color:  #cf6565;
+   font-size: 40px;
+   text-align: center;
+}
+
+.Contacto p{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 30px;
+   color: #000000;
+   text-align: center;
+}
+
+.Contacto{
+   margin: auto;
+   background-color: white;
+}
+
+.Formulario h2{
+   font-family: 'Open Sans Condensed', sans-serif;
+   color:  #000000;
+   font-size: 40px;
+   text-align: center;
+   padding: 20px;
+   background-color: rgb(253, 253, 253, .5);
+}
+
+.Formulario h3{
+   font-family: 'Open Sans Condensed', sans-serif;
+   color:  #000000;
+   font-size: 40px;
+   text-align: center;
+   padding-bottom: 50px;
+   background-color: rgb(253, 253, 253, .5);
+}
+
+.Somos h3{
+   font-family: 'Open Sans Condensed', sans-serif;
+   color:  #000000;
+   font-size: 20px;
+   text-align: center;
+}
+
+.container1{
+   display: flex;
+   background-color: #99cc00;
+   justify-content: space-around;
+   color: white;
+   font-family: 'Open Sans Condensed', sans-serif;
+   text-decoration: white;
+   padding: 10px;
+   padding-bottom: 10px;
+}
+
+.container2{
+   background-color: rgb(30, 1, 63);
+   height: 50px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: white;
+   padding-top: 25px;
+   text-align: center;
+   font-size: 20px;
+}
+
+.container1 h2{
+   font-size: 30px;
+}
+
+.container1 p{
+   font-size: 20px;
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: white;
+}
+
+.Ini{
+   text-decoration: none;
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: white;
+}
+
+.Ser{
+   text-decoration: none;
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: white;
+}
+
+.Con{
+   text-decoration: none;
+   font-family: 'Open Sans Condensed', sans-serif;
+   color: white;
+}
